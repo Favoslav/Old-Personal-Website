@@ -32,5 +32,6 @@ body {
   text-align: center;
   color:rgb(255, 255, 255);
   padding:10px 0;
-  font-family:Courier;
+  font-family:Verdana;
+  font-weight:100;
 }
