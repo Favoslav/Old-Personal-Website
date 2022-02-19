@@ -1,37 +1,77 @@
 body {
   background-attachment:fixed;
-  background-image:url('imgs/matrix.gif');
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('imgs/PCBlur7.5.png');
+  background-repeat:no-repeat;
+  background-position:center;
   background-size:cover;
 }
-.img1 {
-  float:left;
-  padding:395px 0;
-  width:70px;
-  height:70px;
-  position: absolute;
-  top: 0px;
-  left: 732px;
+
+.footer-cont1 {
+  position:absolute;
+  bottom:30px;
+  left:0;
+  right:0;
+  background-color:rgb(15,15,15);
+  line-height: 27px;
 }
-.img2 {
-  float:right;
-  padding:395px 0;
-  width:70px;
-  height:70px;
-  position: absolute;
-  top: 0px;
-  right: 732px;
-  transform:rotate(270deg);
-}
-.loading {
+
+.footer1-text {
   text-align:center;
-  font-size:50px;
-  color:white;
-  padding:400px 0;
-}
-.sign {
-  text-align: center;
-  color:rgb(255, 255, 255);
-  padding:10px 0;
   font-family:Verdana;
-  font-weight:100;
+  margin:20px auto;
 }
+
+.github {
+  color:rgb(208, 173, 226);
+  margin-right: 15px;
+}
+
+.mrbb {
+  color:rgb(208, 173, 226);
+  margin-right: 15px;
+}
+
+.boagcserver {
+  color:rgb(208, 173, 226);
+  margin-right: 15px;
+}
+
+.boagcweb {
+  color:rgb(208, 173, 226);
+  margin-right: 15px;
+}
+
+.footer-cont2 {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:rgb(0,0,0);
+  line-height: 0px;
+}
+
+.footer2-text {
+  text-align:center;
+  font-family:Verdana;
+  margin:15px auto;
+}
+
+.sign {
+  color:#404040;
+  font-family:Verdana;
+  font-size:12px;
+}
+
+.progress {
+  font-family:Verdana;
+  font-size:30px;
+  color:rgb(255,255,255);
+  text-align:center;
+  margin:auto;
+  padding:200px;
+}
+
+.progress-txt1 {
+  background-color:rgba(15,15,15,0.4);
+}
+
